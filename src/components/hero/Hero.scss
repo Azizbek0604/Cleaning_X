@@ -1,0 +1,54 @@
+.hero{
+    display: flex;
+
+    &__title{
+        color: #211F54;
+        font-weight: 700;
+        font-size: 68px;
+        margin-top: 227px;
+    }
+    
+    &__text{
+        color: #6E7191;
+        font-weight: 400;
+        font-size: 21px;
+        margin-top: 22px;
+        margin-bottom: 34px;
+    }
+
+    &__item_block{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    &__second_block{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+    &__btn{
+        padding: 18px 24px;
+        background-color:#0075FF;
+        color: white;
+        border: none;
+        border-radius: 10px;
+    }
+
+    &__descc{
+        color:#211F54;
+        font-weight: 700;
+        font-size: 28px;
+    }
+
+    &__desc{
+        color: #6E7191;
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+    &__img{
+        margin-right: -159px;
+    }
+}

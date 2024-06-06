@@ -1,0 +1,35 @@
+.info{
+    background-color:#211F54;
+    display: flex;
+    align-items: center;
+    gap: 72px;
+    border-radius: 25px;
+    margin-top: 140px;
+
+    &__desc{
+        color: #FFFFFF;
+        font-weight: 700;
+        font-size: 16px;
+        margin-bottom: 16px;
+    }
+
+    &__title{
+        color: #FFFFFF;
+        font-weight: 700;
+        font-size: 48px;
+        width: 450px;
+        margin-bottom: 20px;
+    }
+
+    &__text{
+        font-weight: 400;
+        font-size: 21px;
+        color: #FFFFFF;
+        width: 420px;
+        margin-bottom: 15px;
+    }
+
+    .hero__descc{
+        color: #FFFFFF;
+    }
+}
